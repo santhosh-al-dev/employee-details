@@ -54,6 +54,10 @@ public class EmployeeUtils {
         return dto;
     }
 
+
+
+
+
     public EmployeeEntity convertToEntity(EmployeeBaseResponse.EmployeeDataApiResponse employeeDataApiResponse) {
         EmployeeEntity entity = new EmployeeEntity();
 //        // If empid is zero or not set, let the database generate it
