@@ -18,8 +18,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "empdetails", schema = "employee")
 public class EmployeeEntity {
-
-
+    
     @Id
     @SequenceGenerator(
             name = "empdata_seq",            // Name of the sequence generator
